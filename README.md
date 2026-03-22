@@ -27,4 +27,4 @@ Alur kerja sistem traffic light ini adalah sebagai berikut:
 6. Proses berlangsung secara berulang (looping)
 ## Simulasi
 Simulasi dilakukan menggunakan platform Tinkercad seperti video berikut:
-![Simulasi Traffic Light Sederhana](simulasi.mp4)
+![Simulasi Traffic Light Sederhana](simulasi.gif)
