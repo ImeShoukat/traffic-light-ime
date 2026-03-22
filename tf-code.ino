@@ -4,13 +4,13 @@ nomor pin arduino ke nama lampu deklarasikan dengan huruf pertama adalah warna l
 contoh: re untuk red east, dan sebagainya
 */
 
-//deklarasi dan inisiasi lampu simpang timur
+//deklarasi dan inisialisasi lampu simpang timur
 const int re = 13; const int ye = 12; const int ge = 11;
-//deklarasi dan inisiasi lampu simpang utara
+//deklarasi dan inisialisasi lampu simpang utara
 const int rn = 10; const int yn = 9; const int gn = 8;
-//deklarasi dan inisiasi lampu simpang barat
+//deklarasi dan inisialisasi lampu simpang barat
 const int rw = 7; const int yw = 6; const int gw = 5;
-//iisiasi lampu simpang selatan
+//inisialisasi lampu simpang selatan
 const int rs = 4; const int ys = 3; const int gs = 2;
 
 void setup()
