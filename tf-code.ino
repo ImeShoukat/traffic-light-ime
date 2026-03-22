@@ -4,13 +4,13 @@ nomor pin arduino ke nama lampu deklarasikan dengan huruf pertama adalah warna l
 contoh: re untuk red east, dan sebagainya
 */
 
-//deklarasi dan inisialisasi lampu simpang timur
+//deklarasi dan inisiasi lampu simpang timur
 const int re = 13; const int ye = 12; const int ge = 11;
-//deklarasi dan inisialisasi lampu simpang utara
+//deklarasi dan inisiasi lampu simpang utara
 const int rn = 10; const int yn = 9; const int gn = 8;
-//deklarasi dan inisialisasi lampu simpang barat
+//deklarasi dan inisiasi lampu simpang barat
 const int rw = 7; const int yw = 6; const int gw = 5;
-//inisialisasi lampu simpang selatan
+//iisiasi lampu simpang selatan
 const int rs = 4; const int ys = 3; const int gs = 2;
 
 void setup()
@@ -53,14 +53,6 @@ void simpangOn(int red, int yellow, int green){
   
   // mematikan lampu merah, menyalakan lampu hijau selama 5 detik
   
-  /*   
-  for (int i = 0; i < 3; i++) {
-    digitalWrite(yellow, HIGH);
-    delay(333); 
-    digitalWrite(yellow, LOW);
-    delay(333);
-  }
-  */
   digitalWrite(red,LOW);
   digitalWrite(green, HIGH);
   delay(5000); 
@@ -74,7 +66,6 @@ void simpangOn(int red, int yellow, int green){
   }
   
   digitalWrite(red, HIGH);
-  delay(500); // Jeda antar simpang
 }
 
 void loop(){
