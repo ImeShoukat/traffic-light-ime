@@ -10,6 +10,7 @@ Komponen  yang digunakan dalam mini proyek ini diantaranya:
 * Kabel jumper
 ## Skema
 ![Wiring Diagram](schema.png)
+
 Konfigurasi pin Arduino yang digunakan untuk mengontrol LED pada setiap arah simpang berdasarkan gambar tertera:
 | Arah     | Merah | Kuning | Hijau |
 |----------|------|--------|-------|
